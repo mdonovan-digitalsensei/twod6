@@ -8,35 +8,61 @@
           "min": 0,
           "max": 12
         },
-        "power": {
+        "move": {
           "value": 5,
           "min": 0,
-          "max": 5
-        }
+          "max": 30
+        },
+        "tags": "",
+        "description":"",
+        "background":"",
+        "style":"",
+        "personality":"",
+        "destiny"
       }
     },
     "character": {
-      "templates": ["base"],
-      "biography": "",
+      "templates": ["base"],      
       "attributes": {
         "level": {
           "value": 1
+        },
+        "experience": {
+          "value": 0,
+          "min": 0,
+          "max": 10
         }
       },
-      "abilities": {
-        "body": {
-          "value": 10
+      "statistics": {
+        "war": {
+          "value": 0,
+          "tags": "",
+          "tooltip": "War governs both the ability to do battle and command battle"
         },
-        "mind": {
-          "value": 10
+        "shadow": {
+          "value": 0,
+          "tags": "",
+          "tooltip": "Shadow governs those who strike from dark corners, hide like cowards, and manipulate the sheep"
         },
-        "soul": {
-          "value": 10
+        "faith": {
+          "value": 0,
+          "tags": "",
+          "tooltip": "Governs your connection to Gods and their servants as well as preaching the faith and staring down foes"
+        },
+        "corruption": {
+          "value": 0,
+          "tags": "",
+          "tooltip": "How twisted you are by the umbral abyss, your relation to alien powers, madness and herasy"
+        },
+        "aura":{
+          "value": 0,
+          "tags": "",
+          "tooltip": "The ability to influence others and your presence."
         }
       },
       "skills": {
         "one-handed": {
-          "trained": 0          
+          "trained": 0
         },
         "two-handed": {
           "trained": 0
@@ -45,7 +71,7 @@
     }
   },
   "Item": {
-    "types": ["item", "feature", "spell"],
+    "types": ["item", "spell", "ability", "skill"],
     "templates": {
       "base": {
         "description": ""
@@ -56,7 +82,10 @@
       "quantity": 1,
       "weight": 0
     },
-    "feature": {
+    "ability": {
+      "templates": ["base"]
+    },
+    "skill": {
       "templates": ["base"]
     },
     "spell": {
