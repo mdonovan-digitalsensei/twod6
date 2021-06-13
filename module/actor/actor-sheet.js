@@ -75,9 +75,13 @@ export class twod6ActorSheet extends ActorSheet {
       if (i.type === 'item') {
         gear.push(i);
       }
-      // Append to features.
-      else if (i.type === 'feature') {
-        features.push(i);
+      // Append to abilities.
+      else if (i.type === 'ability') {
+        abilities.push(i);
+      }  
+      // Append to skills    
+      else if (i.type === 'skill') {
+        skills.push(i);
       }
       // Append to spells.
       else if (i.type === 'spell') {
