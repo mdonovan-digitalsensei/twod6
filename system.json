@@ -9,7 +9,7 @@
   "author": "Asacolips",
   "esmodules": ["module/twod6.js"],
   "styles": ["css/twod6.css"],
-  "scripts": [],
+  "scripts": ["lib/tagify/tagify.min.js"],
   "packs": [],
   "languages": [
     {
