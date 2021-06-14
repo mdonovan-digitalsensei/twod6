@@ -6,9 +6,9 @@
   "minimumCoreVersion": "0.8.3",
   "compatibleCoreVersion": "0.8.6",
   "templateVersion": 2,
-  "author": "Asacolips",
+  "author": "Matt D",
   "esmodules": ["module/twod6.js"],
-  "styles": ["css/twod6.css"],
+  "styles": ["css/twod6.css", "lib/tagify/tagify.css"],
   "scripts": ["lib/tagify/tagify.min.js"],
   "packs": [],
   "languages": [

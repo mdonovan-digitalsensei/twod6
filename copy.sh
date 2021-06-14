@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -rpf ./ /mnt/c/Users/msn/AppData/Local/FoundryVTT/Data/systems/twod6 
+cp -urpvf ./ /mnt/c/Users/msn/AppData/Local/FoundryVTT/Data/systems/twod6 
